@@ -18,13 +18,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <Typography>Welcome to My App</Typography>
         <div className={styles.description}>
           <Switch {...label} defaultChecked />
           <Switch {...label} />
           <Switch {...label} disabled defaultChecked />
         </div>
-        <div>Footer Here!</div>
       </main>
     </>
   );

@@ -24,6 +24,7 @@ export default function Home() {
           <Switch {...label} />
           <Switch {...label} disabled defaultChecked />
         </div>
+        <div>Footer Here!</div>
       </main>
     </>
   );
